@@ -30,6 +30,4 @@ Official Helm stable charts
 
 ## Add the artifactory helm charts repository
   
-    helm repo add experience-ai https://muartprd01.opentext.net/artifactory/experience-ai-helm/
-
-v0.0.1
+    helm repo add <repo name> <repo url>

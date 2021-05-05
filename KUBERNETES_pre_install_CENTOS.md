@@ -97,7 +97,7 @@ systemctl stop firewalld
 systemctl disable firewalld
 ```
 
-remove swap from /etc/fstab
+## Remove swap from /etc/fstab
 ```
 swapoff -a
 vi /etc/fstab
@@ -106,5 +106,3 @@ vi /etc/fstab
 ```
 reboot
 ```
-
-v0.0.1

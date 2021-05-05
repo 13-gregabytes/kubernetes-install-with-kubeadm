@@ -169,5 +169,3 @@ vi /etc/fstab
 ```
 reboot
 ```
-
-v0.0.1

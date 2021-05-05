@@ -13,10 +13,12 @@ gcloud init
 gcloud auth login
 ```
 
-## get kubeconfig
+## Get kubeconfig
+https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl
+
 Configure kubectl command line access by running the following command:
 ```
-gcloud container clusters get-credentials otl-eng-dx-eais-gke-cluster-1 --zone us-east4-a --project otl-eng-dx-eais
+gcloud container clusters get-credentials <cluster name> --zone <zone> --project <project name>
 ```
 
 ## Install Ingress in the cluster
@@ -25,5 +27,3 @@ https://cloud.google.com/kubernetes-engine/docs/how-to/internal-load-balance-ing
 ```
 kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
 ```
-
-v0.0.1
