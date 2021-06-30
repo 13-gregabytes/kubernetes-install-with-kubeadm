@@ -21,4 +21,7 @@
 [HELM_install.md](HELM_install.md)
 
 ## Setting up gcloud for GCP-GKE
-[GKE.md](GKE.md)
+[GCP-GKE.md](GCP-GKE.md)
+
+## Setting up gcloud for AWS-EKS
+[AWS-EKS.md](AWS-EKS.md)

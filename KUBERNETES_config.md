@@ -321,6 +321,12 @@ kubectl get secrets
 
 kubectl delete secret default-token-5dhvf eais-ingress-nginx-token-jhpnm my-release-ingress-nginx-admission
 ```
+
+# Run a temp busybox pod
+```
+kubectl run -it temp --image=busybox /bin/sh
+```
+
 ## Setting up Kubernetes Dashboard
 ### Install
 https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/

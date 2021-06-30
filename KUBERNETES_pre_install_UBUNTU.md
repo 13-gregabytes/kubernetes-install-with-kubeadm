@@ -169,3 +169,9 @@ vi /etc/fstab
 ```
 reboot
 ```
+
+## kubectl autocomplete
+```
+source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
+kubectl completion bash >>  ~/.bash_completion
+```
